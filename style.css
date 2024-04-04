@@ -10,6 +10,22 @@ h1 {
 
 p {
     font-size: 0.8em;
-    line-height: 1.5;
+    line-height: 1.5em;
     margin-top: 2em;
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+        width: 800px;
+        margin: 0 auto;
+    }
+
+    h1 {
+        font-size: 1.6em;
+    }
+
+    p {
+        font-size: 1em;
+        line-height: 1.6em;
+    }
 }
